@@ -7,6 +7,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { formatCurrency } from "@/lib/formatCurrency";
+import { formatDate } from "@/lib/formatDate";
 import { getTransactions } from "@/services/transactions/getTransactions";
 import { useAuthStore } from "@/store/useAuthStore";
 import React, { useEffect, useState } from "react";
@@ -43,20 +44,28 @@ const Transactions = () => {
             <TableHeader>
               <TableRow>
                 <TableHead className="w-4">No</TableHead>
+                <TableHead className="text-center">ID Transaksi</TableHead>
                 <TableHead className="text-center">Produk</TableHead>
-                <TableHead className="text-right">Harga</TableHead>
+                <TableHead className="text-center">Harga</TableHead>
+                <TableHead className="text-right">Tanggal</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               {transactions.map((transaction, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-medium">{index + 1}</TableCell>
-                  {/* <TableCell className="text-center">
+                  <TableCell className="text-center">
+                    {transaction.id}
+                  </TableCell>
+                  <TableCell className="text-center">
                     {transaction.product.name}
                   </TableCell>
-                  <TableCell className="text-right">
+                  <TableCell className="text-center">
                     {formatCurrency(transaction.product.price)}
-                  </TableCell> */}
+                  </TableCell>
+                  <TableCell className="text-right">
+                    {formatDate(transaction.date)}
+                  </TableCell>
                 </TableRow>
               ))}
             </TableBody>

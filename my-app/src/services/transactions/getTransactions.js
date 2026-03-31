@@ -1,7 +1,7 @@
 export const getTransactions = async (userId) => {
   console.log(userId);
   const result = await fetch(
-    `http://localhost:3001/transactions?userId:eq=${userId}`,
+    `http://localhost:3001/transactions?userId:eq=${userId}&_embed=product`,
   );
   const transactions = await result.json();
 
