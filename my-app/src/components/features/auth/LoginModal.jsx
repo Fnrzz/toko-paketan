@@ -9,13 +9,13 @@ import {
 import React, { useState } from "react";
 import LoginForm from "./LoginForm";
 
-const LoginModal = () => {
+const LoginModal = ({ textButton = "Login" }) => {
   const [open, setOpen] = useState(false);
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button size="lg" className="px-4 py-2 rounded-full w-full">
-          Login
+          {textButton}
         </Button>
       </DialogTrigger>
       <DialogContent>

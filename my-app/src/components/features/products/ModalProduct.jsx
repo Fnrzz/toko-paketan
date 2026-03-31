@@ -8,9 +8,12 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { formatCurrency } from "@/lib/formatCurrency";
+import { useAuthStore } from "@/store/useAuthStore";
 import { Link } from "react-router-dom";
+import LoginModal from "../auth/LoginModal";
 
 const ModalProduct = ({ productData: product }) => {
+  const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -27,11 +30,15 @@ const ModalProduct = ({ productData: product }) => {
           <img src={product.image} alt={product.name} className="w-32" />
           <p className="text-sm text-muted-foreground">{product.description}</p>
         </div>
-        <Link href={`/checkout/${product.id}`} className="w-full flex">
-          <Button size="lg" className="w-full">
-            Checkout
-          </Button>
-        </Link>
+        {isAuthenticated ? (
+          <Link to={`/checkout/${product.id}`} className="w-full flex">
+            <Button size="lg" className="w-full">
+              Checkout
+            </Button>
+          </Link>
+        ) : (
+          <LoginModal textButton="Login to checkout" />
+        )}
       </DialogContent>
     </Dialog>
   );
