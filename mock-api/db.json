@@ -475,6 +475,22 @@
       "status": "success",
       "totalPrice": 45000,
       "id": "z1m_icO2b18"
+    },
+    {
+      "userId": "abcdefg",
+      "productId": "1",
+      "date": "2026-03-31T14:53:30.477Z",
+      "status": "success",
+      "totalPrice": 25000,
+      "id": "6Tc49XV-7mw"
+    },
+    {
+      "userId": "abcdefg",
+      "productId": "44",
+      "date": "2026-03-31T14:55:00.027Z",
+      "status": "success",
+      "totalPrice": 50000,
+      "id": "7OOAK2gW08Q"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
