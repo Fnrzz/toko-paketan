@@ -6,12 +6,13 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import React from "react";
+import React, { useState } from "react";
 import LoginForm from "./LoginForm";
 
 const LoginModal = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <Dialog>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button size="lg" className="px-4 py-2 rounded-full w-full">
           Login
@@ -23,7 +24,7 @@ const LoginModal = () => {
           <DialogDescription className="text-sm text-muted-foreground">
             Login to your account
           </DialogDescription>
-          <LoginForm />
+          <LoginForm onSuccess={() => setOpen(false)} />
         </div>
       </DialogContent>
     </Dialog>

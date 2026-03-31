@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import LoginModal from "../features/auth/LoginModal";
-import { Menu } from "lucide-react";
 import { Button } from "../ui/button";
+import { useAuthStore } from "@/store/useAuthStore";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { isAuthenticated, logout } = useAuthStore();
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -21,7 +23,18 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-4">
           <div className="hidden md:block">
-            <LoginModal />
+            {isAuthenticated ? (
+              <Button
+                size="lg"
+                variant="destructive"
+                onClick={logout}
+                className="rounded-full px-4 py-2"
+              >
+                Logout
+              </Button>
+            ) : (
+              <LoginModal />
+            )}
           </div>
 
           <Button
@@ -47,7 +60,18 @@ const Navbar = () => {
               XL
             </a>
           </div>
-          <LoginModal />
+          {isAuthenticated ? (
+            <Button
+              size="lg"
+              variant="destructive"
+              onClick={logout}
+              className="w-full rounded-full"
+            >
+              Logout
+            </Button>
+          ) : (
+            <LoginModal />
+          )}
         </div>
       )}
     </nav>
