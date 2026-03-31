@@ -15,8 +15,8 @@ export const addTransaction = async (productId, userId) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      userId: userId,
-      productId: product.id,
+      userId: Number(userId),
+      productId: Number(product.id),
       date: new Date().toISOString(),
       status: "success",
       totalPrice: product.price,

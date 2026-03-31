@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/layouts/Navbar";
 import Checkout from "./pages/Checkout";
 import AuthProvider from "./components/layouts/AuthProvider";
+import Transactions from "./pages/Transactions";
 
 function App() {
   return (
@@ -15,6 +16,14 @@ function App() {
           element={
             <AuthProvider>
               <Checkout />
+            </AuthProvider>
+          }
+        />
+        <Route
+          path="/transactions"
+          element={
+            <AuthProvider>
+              <Transactions />
             </AuthProvider>
           }
         />

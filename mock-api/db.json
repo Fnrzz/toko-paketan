@@ -461,20 +461,36 @@
   ],
   "transactions": [
     {
-      "userId": "1",
-      "productId": "1",
+      "userId": 1,
+      "productId": 1,
       "date": "2026-03-31T13:22:09.788Z",
       "status": "success",
       "totalPrice": 25000,
       "id": "1bm2-oVQYh4"
     },
     {
-      "userId": "1",
-      "productId": "1",
+      "userId": 1,
+      "productId": 1,
       "date": "2026-03-31T13:28:39.727Z",
       "status": "success",
       "totalPrice": 25000,
       "id": "IJyKR4QQhPo"
+    },
+    {
+      "userId": 1,
+      "productId": 27,
+      "date": "2026-03-31T13:37:59.870Z",
+      "status": "success",
+      "totalPrice": 5000,
+      "id": "kyzFS60jgKE"
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "date": "2026-03-31T14:08:33.272Z",
+      "status": "success",
+      "totalPrice": 25000,
+      "id": "_TQYNZS5cTQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
