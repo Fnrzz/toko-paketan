@@ -24,8 +24,6 @@ export const getProducts = async (
     if (maxQuota) whereObj.quota.lte = Number(maxQuota);
   }
 
-  console.log(whereObj);
-
   if (Object.keys(whereObj).length > 0) {
     url += `&_where={"or":[${JSON.stringify(whereObj)}]}`;
   }
