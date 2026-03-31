@@ -30,7 +30,6 @@ export const getProducts = async (
     url += `&_where={"or":[${JSON.stringify(whereObj)}]}`;
   }
 
-  console.log(url);
   const result = await fetch(url);
   const responseData = await result.json();
   const products = responseData.data || [];
