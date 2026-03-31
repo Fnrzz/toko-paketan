@@ -14,7 +14,8 @@
       "provider": "Telkomsel",
       "name": "Internet OMG! 5GB",
       "quota": 5,
-      "price": 25000
+      "price": 25000,
+      "description": "Nikmati akses internet 24 jam dan kuota aplikasi (YouTube, Facebook, Instagram) dengan total kuota 5GB."
     },
     {
       "id": "2",
@@ -22,7 +23,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 3GB",
       "quota": 3,
-      "price": 15000
+      "price": 15000,
+      "description": "100% kuota utama 3GB yang bisa digunakan 24 jam di semua jaringan Indosat tanpa pembagian waktu."
     },
     {
       "id": "3",
@@ -30,7 +32,8 @@
       "provider": "XL",
       "name": "Xtra Combo Flex S 4GB",
       "quota": 4,
-      "price": 18000
+      "price": 18000,
+      "description": "Paket Xtra Combo Flex S 4GB lengkap dengan kuota utama, bebas nelpon, dan pilihan bonus tambahan di aplikasi myXL."
     },
     {
       "id": "4",
@@ -38,7 +41,8 @@
       "provider": "Telkomsel",
       "name": "Internet Sakti 10GB",
       "quota": 10,
-      "price": 45000
+      "price": 45000,
+      "description": "Paket internet hemat Telkomsel 10GB khusus untuk pelanggan setia, berlaku 24 jam."
     },
     {
       "id": "5",
@@ -46,7 +50,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 12GB",
       "quota": 12,
-      "price": 40000
+      "price": 40000,
+      "description": "100% kuota utama 12GB yang bisa digunakan 24 jam di semua jaringan Indosat tanpa pembagian waktu."
     },
     {
       "id": "6",
@@ -54,7 +59,8 @@
       "provider": "XL",
       "name": "Xtra Combo Flex M 10GB",
       "quota": 10,
-      "price": 35000
+      "price": 35000,
+      "description": "Paket Xtra Combo Flex M 10GB lengkap dengan kuota utama, bebas nelpon, dan pilihan bonus tambahan di aplikasi myXL."
     },
     {
       "id": "7",
@@ -62,7 +68,8 @@
       "provider": "Telkomsel",
       "name": "Internet OMG! 15GB",
       "quota": 15,
-      "price": 65000
+      "price": 65000,
+      "description": "Nikmati akses internet 24 jam dan kuota aplikasi (YouTube, Facebook, Instagram) dengan total kuota 15GB."
     },
     {
       "id": "8",
@@ -70,7 +77,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 20GB",
       "quota": 20,
-      "price": 60000
+      "price": 60000,
+      "description": "100% kuota utama 20GB yang bisa digunakan 24 jam di semua jaringan Indosat tanpa pembagian waktu."
     },
     {
       "id": "9",
@@ -78,7 +86,8 @@
       "provider": "XL",
       "name": "Xtra Combo Flex L 20GB",
       "quota": 20,
-      "price": 55000
+      "price": 55000,
+      "description": "Paket Xtra Combo Flex L 20GB lengkap dengan kuota utama, bebas nelpon, dan pilihan bonus tambahan di aplikasi myXL."
     },
     {
       "id": "10",
@@ -86,7 +95,8 @@
       "provider": "Telkomsel",
       "name": "Internet Sakti 25GB",
       "quota": 25,
-      "price": 95000
+      "price": 95000,
+      "description": "Paket internet hemat Telkomsel 25GB khusus untuk pelanggan setia, berlaku 24 jam."
     },
     {
       "id": "11",
@@ -94,7 +104,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 30GB",
       "quota": 30,
-      "price": 85000
+      "price": 85000,
+      "description": "100% kuota utama 30GB yang bisa digunakan 24 jam di semua jaringan Indosat tanpa pembagian waktu."
     },
     {
       "id": "12",
@@ -102,7 +113,8 @@
       "provider": "XL",
       "name": "Xtra Combo Flex XL 30GB",
       "quota": 30,
-      "price": 75000
+      "price": 75000,
+      "description": "Paket Xtra Combo Flex XL 30GB dengan kuota besar, bebas nelpon, dan pilihan bonus tambahan di aplikasi myXL."
     },
     {
       "id": "13",
@@ -110,7 +122,8 @@
       "provider": "Telkomsel",
       "name": "Internet OMG! 35GB",
       "quota": 35,
-      "price": 125000
+      "price": 125000,
+      "description": "Nikmati akses internet 24 jam dan kuota aplikasi ekstra besar dengan total kuota 35GB."
     },
     {
       "id": "14",
@@ -118,7 +131,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 40GB",
       "quota": 40,
-      "price": 110000
+      "price": 110000,
+      "description": "100% kuota utama 40GB yang bisa digunakan 24 jam di semua jaringan Indosat tanpa pembagian waktu."
     },
     {
       "id": "15",
@@ -126,7 +140,8 @@
       "provider": "XL",
       "name": "Xtra Combo Flex XXL 50GB",
       "quota": 50,
-      "price": 105000
+      "price": 105000,
+      "description": "Paket Xtra Combo Flex XXL 50GB, kuota super besar untuk segala kebutuhan internetmu."
     },
     {
       "id": "16",
@@ -134,7 +149,8 @@
       "provider": "Telkomsel",
       "name": "Internet Sakti 50GB",
       "quota": 50,
-      "price": 160000
+      "price": 160000,
+      "description": "Paket internet hemat Telkomsel 50GB khusus untuk pelanggan setia, berlaku 24 jam."
     },
     {
       "id": "17",
@@ -142,7 +158,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 60GB",
       "quota": 60,
-      "price": 140000
+      "price": 140000,
+      "description": "100% kuota utama 60GB yang bisa digunakan 24 jam di semua jaringan Indosat tanpa pembagian waktu."
     },
     {
       "id": "18",
@@ -150,7 +167,8 @@
       "provider": "XL",
       "name": "Xtra Combo VIP 60GB",
       "quota": 60,
-      "price": 130000
+      "price": 130000,
+      "description": "Paket premium Xtra Combo VIP 60GB dengan prioritas jaringan, bonus kuota YouTube, dan gratis akses iFlix/Vidio."
     },
     {
       "id": "19",
@@ -158,7 +176,8 @@
       "provider": "Telkomsel",
       "name": "Internet OMG! 75GB",
       "quota": 75,
-      "price": 210000
+      "price": 210000,
+      "description": "Nikmati akses internet 24 jam dan kuota aplikasi ekstra besar dengan total kuota 75GB."
     },
     {
       "id": "20",
@@ -166,7 +185,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 100GB",
       "quota": 100,
-      "price": 180000
+      "price": 180000,
+      "description": "Puas internetan sebulan penuh dengan kuota utama 100GB utuh tanpa pembagian waktu."
     },
     {
       "id": "21",
@@ -174,7 +194,8 @@
       "provider": "XL",
       "name": "Xtra Combo VIP 100GB",
       "quota": 100,
-      "price": 175000
+      "price": 175000,
+      "description": "Paket premium Xtra Combo VIP 100GB dengan prioritas jaringan, bonus kuota YouTube, dan gratis akses iFlix/Vidio."
     },
     {
       "id": "22",
@@ -182,7 +203,8 @@
       "provider": "Telkomsel",
       "name": "Internet Sakti 100GB",
       "quota": 100,
-      "price": 260000
+      "price": 260000,
+      "description": "Paket kuota maksimal Telkomsel 100GB khusus untuk pelanggan setia, berlaku 24 jam."
     },
     {
       "id": "23",
@@ -190,7 +212,8 @@
       "provider": "Indosat",
       "name": "Freedom Internet 150GB",
       "quota": 150,
-      "price": 250000
+      "price": 250000,
+      "description": "Kuota jumbo 150GB 100% kuota utama tanpa pembagian, cocok untuk download, streaming, dan gaming sepuasnya."
     },
     {
       "id": "24",
@@ -198,7 +221,8 @@
       "provider": "XL",
       "name": "Xtra Combo VIP 150GB",
       "quota": 150,
-      "price": 240000
+      "price": 240000,
+      "description": "Paket premium kuota raksasa Xtra Combo VIP 150GB dengan prioritas jaringan tanpa hambatan."
     },
     {
       "id": "25",
@@ -206,7 +230,8 @@
       "provider": "Telkomsel",
       "name": "Internet OMG! 150GB",
       "quota": 150,
-      "price": 350000
+      "price": 350000,
+      "description": "Paket sultan Telkomsel dengan total kuota 150GB untuk akses internet, YouTube, medsos sepuasnya."
     },
     {
       "id": "26",
@@ -214,7 +239,8 @@
       "provider": "Telkomsel",
       "name": "Combo Sakti 8GB",
       "quota": 8,
-      "price": 38000
+      "price": 38000,
+      "description": "Paket Combo Sakti 8GB hemat lengkap dengan kuota internet, telepon, dan SMS ke sesama Telkomsel."
     },
     {
       "id": "27",
@@ -222,7 +248,8 @@
       "provider": "Indosat",
       "name": "Yellow 1GB",
       "quota": 1,
-      "price": 5000
+      "price": 5000,
+      "description": "Paket harian hemat Indosat Yellow 1GB, solusi pas untuk kebutuhan internet singkatmu."
     },
     {
       "id": "28",
@@ -230,7 +257,8 @@
       "provider": "XL",
       "name": "Hotrod 2GB",
       "quota": 2,
-      "price": 12000
+      "price": 12000,
+      "description": "Internet cepat 24 jam di jaringan 3G/4G XL dengan kuota utama 2GB."
     },
     {
       "id": "29",
@@ -238,7 +266,8 @@
       "provider": "Telkomsel",
       "name": "Combo Sakti 17GB",
       "quota": 17,
-      "price": 75000
+      "price": 75000,
+      "description": "Paket Combo Sakti 17GB hemat lengkap dengan kuota internet, telepon, dan SMS ke sesama Telkomsel."
     },
     {
       "id": "30",
@@ -246,7 +275,8 @@
       "provider": "Indosat",
       "name": "Yellow 5GB",
       "quota": 5,
-      "price": 18000
+      "price": 18000,
+      "description": "Paket mingguan hemat Indosat Yellow 5GB untuk internetan dengan budget minim."
     },
     {
       "id": "31",
@@ -254,7 +284,8 @@
       "provider": "XL",
       "name": "Hotrod 6GB",
       "quota": 6,
-      "price": 28000
+      "price": 28000,
+      "description": "Internet cepat 24 jam di jaringan 3G/4G XL dengan kuota utama 6GB."
     },
     {
       "id": "32",
@@ -262,7 +293,8 @@
       "provider": "Telkomsel",
       "name": "Combo Sakti 28GB",
       "quota": 28,
-      "price": 115000
+      "price": 115000,
+      "description": "Paket Combo Sakti 28GB hemat lengkap dengan kuota internet besar, telepon, dan SMS."
     },
     {
       "id": "33",
@@ -270,7 +302,8 @@
       "provider": "Indosat",
       "name": "Freedom U 15GB",
       "quota": 15,
-      "price": 55000
+      "price": 55000,
+      "description": "Paket Freedom U dengan kuota utama dan kuota aplikasi (streaming, sosmed) total 15GB."
     },
     {
       "id": "34",
@@ -278,7 +311,8 @@
       "provider": "XL",
       "name": "Hotrod 12GB",
       "quota": 12,
-      "price": 45000
+      "price": 45000,
+      "description": "Internet cepat 24 jam di jaringan 3G/4G XL dengan kuota utama 12GB."
     },
     {
       "id": "35",
@@ -286,7 +320,8 @@
       "provider": "Telkomsel",
       "name": "Kouta Ketengan 3GB",
       "quota": 3,
-      "price": 16000
+      "price": 16000,
+      "description": "Beli kuota eceran sesuai kebutuhanmu dengan paket Kuota Ketengan 3GB dari Telkomsel."
     },
     {
       "id": "36",
@@ -294,7 +329,8 @@
       "provider": "Indosat",
       "name": "Freedom U 25GB",
       "quota": 25,
-      "price": 75000
+      "price": 75000,
+      "description": "Paket Freedom U dengan kuota utama dan kuota ekstra aplikasi total 25GB."
     },
     {
       "id": "37",
@@ -302,7 +338,8 @@
       "provider": "XL",
       "name": "Xtra Kuota 15GB",
       "quota": 15,
-      "price": 40000
+      "price": 40000,
+      "description": "Paket tambahan (add-on) Xtra Kuota 15GB untuk menambah sisa kuota paket utamamu."
     },
     {
       "id": "38",
@@ -310,7 +347,8 @@
       "provider": "Telkomsel",
       "name": "Kuota Ketengan 7GB",
       "quota": 7,
-      "price": 32000
+      "price": 32000,
+      "description": "Beli kuota eceran lebih banyak untuk YouTube/TikTok/Instagram dengan paket Kuota Ketengan 7GB."
     },
     {
       "id": "39",
@@ -318,7 +356,8 @@
       "provider": "Indosat",
       "name": "Freedom U 35GB",
       "quota": 35,
-      "price": 95000
+      "price": 95000,
+      "description": "Paket Freedom U maksimal dengan kuota utama dan kuota aplikasi besar total 35GB."
     },
     {
       "id": "40",
@@ -326,7 +365,8 @@
       "provider": "XL",
       "name": "Xtra Kuota 25GB",
       "quota": 25,
-      "price": 60000
+      "price": 60000,
+      "description": "Paket tambahan (add-on) Xtra Kuota 25GB untuk memperpanjang keasyikan internetanmu."
     },
     {
       "id": "41",
@@ -334,7 +374,8 @@
       "provider": "Telkomsel",
       "name": "Internet Malam 15GB",
       "quota": 15,
-      "price": 25000
+      "price": 25000,
+      "description": "Kuota khusus begadang 15GB yang berlaku mulai pukul 00:00 hingga 07:00 pagi."
     },
     {
       "id": "42",
@@ -342,7 +383,8 @@
       "provider": "Indosat",
       "name": "Internet Malam 20GB",
       "quota": 20,
-      "price": 20000
+      "price": 20000,
+      "description": "Puas download dan streaming di malam hari dengan kuota malam Indosat 20GB."
     },
     {
       "id": "43",
@@ -350,7 +392,8 @@
       "provider": "XL",
       "name": "Xtra Malam 15GB",
       "quota": 15,
-      "price": 15000
+      "price": 15000,
+      "description": "Paket Xtra Malam XL 15GB khusus digunakan pada jam kalong/malam hari dengan harga sangat terjangkau."
     },
     {
       "id": "44",
@@ -358,7 +401,8 @@
       "provider": "Telkomsel",
       "name": "Internet Games 30GB",
       "quota": 30,
-      "price": 50000
+      "price": 50000,
+      "description": "Kuota khusus gaming 30GB untuk main Mobile Legends, Free Fire, PUBG lancar tanpa lag."
     },
     {
       "id": "45",
@@ -366,7 +410,8 @@
       "provider": "Indosat",
       "name": "Internet Games 40GB",
       "quota": 40,
-      "price": 45000
+      "price": 45000,
+      "description": "Main game online seharian makin puas dengan kuota khusus game Indosat sebesar 40GB."
     },
     {
       "id": "46",
@@ -374,7 +419,8 @@
       "provider": "XL",
       "name": "Xtra Games 30GB",
       "quota": 30,
-      "price": 40000
+      "price": 40000,
+      "description": "Paket Xtra Games 30GB untuk akses tak terbatas ke game-game favoritmu di jaringan XL."
     },
     {
       "id": "47",
@@ -382,7 +428,8 @@
       "provider": "Telkomsel",
       "name": "Paket Belajar 20GB",
       "quota": 20,
-      "price": 30000
+      "price": 30000,
+      "description": "Kuota edukasi 20GB khusus untuk akses aplikasi belajar online, Zoom, Google Meet, dan Ruangguru."
     },
     {
       "id": "48",
@@ -390,7 +437,8 @@
       "provider": "Indosat",
       "name": "Paket Belajar 30GB",
       "quota": 30,
-      "price": 25000
+      "price": 25000,
+      "description": "Dukung aktivitas belajar dari rumah dengan kuota Indosat Belajar 30GB dengan harga hemat."
     },
     {
       "id": "49",
@@ -398,7 +446,8 @@
       "provider": "XL",
       "name": "Xtra Edukasi 25GB",
       "quota": 25,
-      "price": 25000
+      "price": 25000,
+      "description": "Paket Xtra Edukasi 25GB untuk akses lancar ke berbagai portal universitas dan platform belajar online."
     },
     {
       "id": "50",
@@ -406,7 +455,8 @@
       "provider": "Telkomsel",
       "name": "Kouta Nonton 50GB",
       "quota": 50,
-      "price": 85000
+      "price": 85000,
+      "description": "Kuota ekstra besar 50GB khusus untuk streaming Netflix, Disney+ Hotstar, MAXstream, dan YouTube."
     }
   ],
   "transactions": [

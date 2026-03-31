@@ -5,6 +5,7 @@ import { getProducts } from "@/services/products/getProducts";
 
 import React, { useEffect, useState } from "react";
 import FilterProducts from "./FilterProducts";
+import ModalProduct from "./ModalProduct";
 
 const CardProducts = () => {
   const [products, setProducts] = useState([]);
@@ -83,7 +84,7 @@ const CardProducts = () => {
                   {formatCurrency(product.price)}
                 </p>
               </div>
-              <Button className="w-full mt-auto">Detail</Button>
+              <ModalProduct productData={product} />
             </div>
           ))}
         </div>
