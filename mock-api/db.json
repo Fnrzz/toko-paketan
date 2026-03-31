@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user",
+      "password": "passwird",
+      "name": "User"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "provider": "Telkomsel",
+      "name": "Internet 15GB",
+      "quota": 15,
+      "price": 50000
+    },
+    {
+      "id": "2",
+      "provider": "Indosat",
+      "name": "Internet 30GB",
+      "quota": 30,
+      "price": 75000
+    },
+    {
+      "id": "3",
+      "provider": "XL",
+      "name": "Internet 10GB",
+      "quota": 10,
+      "price": 35000
+    },
+    {
+      "id": "4",
+      "provider": "Telkomsel",
+      "name": "Internet 50GB",
+      "quota": 50,
+      "price": 120000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": "1",
+      "packageId": "2",
+      "date": "2026-03-30T10:00:00Z",
+      "status": "success",
+      "totalPrice": 75000
+    }
+  ]
+}
